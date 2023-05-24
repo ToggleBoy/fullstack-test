@@ -15,23 +15,7 @@ const Header: React.FC = () => {
         </a>
       </Link>
       <style jsx>{`
-        .bold {
-          font-weight: bold;
-        }
-
-        a {
-          text-decoration: none;
-          color: #000;
-          display: inline-block;
-        }
-
-        .left a[data-active="true"] {
-          color: gray;
-        }
-
-        a + a {
-          margin-left: 1rem;
-        }
+       
       `}</style>
     </div>
   );
@@ -42,13 +26,6 @@ const Header: React.FC = () => {
     <nav>
       {left}
       {right}
-      <style jsx>{`
-        nav {
-          display: flex;
-          padding: 2rem;
-          align-items: center;
-        }
-      `}</style>
     </nav>
   );
 };
